@@ -664,6 +664,17 @@ class FitModel:
         '''
           
         return   self.id_df.loc[:,['x']]
+    
+    def ideal48(self):
+         
+         
+        '''
+        
+        creates a seperate pandas column of the ideal y48 column 
+        
+        '''
+            
+        return    self.id_df.loc[:,['y48']]
 
     def ideal44(self):
          
